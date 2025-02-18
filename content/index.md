@@ -1,28 +1,24 @@
 ---
 seo:
-  title: Nuxt UI Pro - Docs template.
-  description: Nuxt UI Pro is a collection of premium Vue components built on top
-    of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+  title: Api responder for Laravel
+  description: A simple api response template using via DI
 ---
 
 ::u-page-hero
 ---
 orientation: horizontal
 ---
-
   :::prose-pre{filename="Terminal"}
-
   ```bash
-  npx nuxi init -t github:nuxt-ui-pro/docs#v3
+  composer require pepperfm/api-responder-for-laravel
   ```
-
   :::
 
 #title
-Build your docs with Nuxt UI Pro
+Standardize your API Responses without traits
 
 #description
-Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive applications in minutes.
+API Responder is a class of simple methods that allows you to easily standardize your JSON responses for REST and beyond with minimal effort.
 
 #links
   :::u-button
@@ -33,23 +29,11 @@ Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to cre
   ---
   Get started
   :::
-
-  :::u-button
-  ---
-  color: neutral
-  icon: i-simple-icons-github
-  size: xl
-  target: _blank
-  to: https://github.com/nuxt-ui-pro/docs/tree/v3
-  variant: subtle
-  ---
-  Use this template
-  :::
 ::
 
 ::u-page-section
 #title
-All-in-one documentation template
+Simplicity is beautiful
 
 #links
   :::u-button
@@ -61,7 +45,7 @@ All-in-one documentation template
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---
-  Discover Nuxt UI Pro v3
+  Documentation
   :::
 
 #features
@@ -72,10 +56,10 @@ All-in-one documentation template
   to: https://nuxt.com
   ---
   #title
-  Nuxt 3
-
+  Minimal effort required from the developer
+  
   #description
-  Powered by Nuxt 3 for optimal performances and SEO.
+  Simply retrieve the object from the container and return the resulting instance as a JSON response
   :::
 
   :::u-page-feature
@@ -85,10 +69,10 @@ All-in-one documentation template
   to: https://content.nuxt.com
   ---
   #title
-  Markdown
-
+  Easy to use
+  
   #description
-  Write your pages with MDC thanks to Nuxt Content.
+  ust pass an array or an Arrayable parameter
   :::
 
   :::u-page-feature
@@ -98,72 +82,9 @@ All-in-one documentation template
   to: https://ui3.nuxt.dev
   ---
   #title
-  Nuxt UI v3
-
+  Readability
+  
   #description
-  Offers a very large set of full customizable components.
+  Methods are designed with REST context in mind
   :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-typescript
-  target: _blank
-  to: https://www.typescriptlang.org
-  ---
-  #title
-  TypeScript
-
-  #description
-  A fully typed development experience.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxtdotjs
-  target: _blank
-  to: https://content.nuxt.com/docs/studio
-  ---
-  #title
-  Nuxt Studio
-
-  #description
-  Supported by Nuxt Studio for fast updates and previews.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-search
-  target: _blank
-  to: https://ui3.nuxt.dev/components/content-search
-  ---
-  #title
-  Search
-
-  #description
-  A full-text search modal powered by Fuse.js.
-  :::
-::
-
-::u-page-section
-
-  :::u-page-c-t-a
-  ---
-  title: Start with Nuxt UI Pro today!
-  description: Nuxt UI Pro is free in development, but you need a license to use it in production.
-  variant: subtle
-  links:
-    - label: Buy now
-      to: 'https://ui.nuxt.com/pro/purchase'
-      target: _blank
-      icon: i-lucide-shopping-cart
-      color: neutral
-    - label: License
-      to: 'https://ui3.nuxt.dev/getting-started/license'
-      trailingIcon: i-lucide-circle-help
-      target: _blank
-      color: neutral
-      variant: subtle
-  ---
-  :::
-
 ::
