@@ -9,6 +9,12 @@ export default defineNuxtConfig({
     '@nuxthq/studio'
   ],
 
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
+
   devtools: {
     enabled: true
   },
