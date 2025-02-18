@@ -1,4 +1,4 @@
-![nuxt-ui-docs-social-card](https://github.com/nuxt-ui-pro/docs/assets/739984/f64e13d9-9ae0-4e03-bf7f-6be4c36cd9ba)
+![nuxt-ui-docs-social-card](social-card.jpg)
 
 # Nuxt UI Pro - Docs template
 
