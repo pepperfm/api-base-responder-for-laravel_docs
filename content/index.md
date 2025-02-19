@@ -21,12 +21,7 @@ Standardize your API Responses without traits
 API Responder is a class of simple methods that allows you to easily standardize your JSON responses for REST and beyond with minimal effort.
 
 #links
-  :::u-button
-  ---
-  size: xl
-  to: /getting-started
-  trailing-icon: i-lucide-arrow-right
-  ---
+  :::u-button{size="xl" to="/docs" trailing-icon="i-lucide-arrow-right"}
   Get started
   :::
 ::
@@ -41,7 +36,7 @@ Simplicity is beautiful
   color: neutral
   size: lg
   target: _blank
-  to: https://ui3.nuxt.dev/getting-started/installation/pro/nuxt
+  to: /docs
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---
