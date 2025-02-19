@@ -46,7 +46,7 @@ Simplicity is beautiful
 #features
   :::u-page-feature
   ---
-  icon: i-heroicons:squares-2x2
+  icon: i-heroicons:code-bracket-square
   ---
   #title
   Minimal effort required from the developer
@@ -57,7 +57,7 @@ Simplicity is beautiful
 
   :::u-page-feature
   ---
-  icon: i-heroicons:code-bracket-square
+  icon: i-heroicons:squares-2x2
   ---
   #title
   Easy to use
