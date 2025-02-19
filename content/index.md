@@ -46,9 +46,7 @@ Simplicity is beautiful
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-heroicons:squares-2x2
   ---
   #title
   Minimal effort required from the developer
@@ -59,22 +57,18 @@ Simplicity is beautiful
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-markdown
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-heroicons:code-bracket-square
   ---
   #title
   Easy to use
   
   #description
-  ust pass an array or an Arrayable parameter
+  Just pass an array or an Arrayable parameter
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-sparkles
-  target: _blank
-  to: https://ui3.nuxt.dev
+  icon: i-heroicons:rocket-launch-16-solid
   ---
   #title
   Readability
